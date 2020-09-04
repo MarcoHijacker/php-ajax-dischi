@@ -38,10 +38,6 @@ body {
   font-size: 14px;
 }
 
-#showcase .disc:first-child {
-  display: none;
-}
-
 #showcase .title {
   font-size: 18px;
   font-weight: 600;

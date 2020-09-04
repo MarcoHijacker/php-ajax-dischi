@@ -25,16 +25,14 @@
 
       <?php
         include 'database.php';
-        foreach ($database as $reply => $record) {
-          for ($i=0; $i < count($record); $i++) {
+        foreach ($database['response'] as $reply => $record) {
             echo "<div class='disc'>";
-            echo "<img src='" . $record[$i]['poster'] . "' width='300px' height='300px'>" . "<br>";
-            echo "<span class='title'>" . $record[$i]['title'] . "</span><br>";
-            echo "<span class='author'>" . $record[$i]['author'] . "</span><br>";
-            echo "<span class='genre'>" . $record[$i]['genre'] . "</span><br>";
-            echo "<span class='year'>" . $record[$i]['year'] . "</span><br>";
+            echo "<img src='" . $record['poster'] . "' width='300px' height='300px'>" . "<br>";
+            echo "<span class='title'>" . $record['title'] . "</span><br>";
+            echo "<span class='author'>" . $record['author'] . "</span><br>";
+            echo "<span class='genre'>" . $record['genre'] . "</span><br>";
+            echo "<span class='year'>" . $record['year'] . "</span><br>";
             echo "</div>";
-          }
         }
        ?>
 
