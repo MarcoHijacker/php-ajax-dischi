@@ -1,0 +1,48 @@
+/* PHP-Ajax Disc CSS */
+
+/* Generali */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #3c3a3af0;
+}
+
+/* Contenuti */
+
+#showcase {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#showcase .disc {
+  background-color: #212020bf;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#showcase .author {
+  color: grey;
+}
+
+#showcase .genre, #showcase .year {
+  font-size: 14px;
+}
+
+#showcase .disc:first-child {
+  display: none;
+}
+
+#showcase .title {
+  font-size: 18px;
+  font-weight: 600;
+}
