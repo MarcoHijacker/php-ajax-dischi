@@ -1,4 +1,4 @@
-// Esercizio PHP-Ajax Dischi JS
+// Esercizio PHP-Ajax Dischi JS (Solo PHP)
 
 // Area init
 

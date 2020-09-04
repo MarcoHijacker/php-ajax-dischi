@@ -1,4 +1,4 @@
-// Esercizio PHP-Ajax Dischi JS
+// Esercizio PHP-Ajax Dischi JS (Variante AJAX)
 
 // Area init
 
