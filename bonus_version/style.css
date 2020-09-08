@@ -1,0 +1,58 @@
+/* PHP-Ajax Disc CSS (Variante AJAX) + Bonus Filtro Generi */
+
+/* Generali */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #3c3a3af0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 30px;
+  background-color: black;
+}
+
+/* Contenuti */
+
+#showcase {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#showcase .disc {
+  background-color: #212020bf;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#showcase .author {
+  color: grey;
+}
+
+#showcase .genre, #showcase .year {
+  font-size: 14px;
+}
+
+#showcase .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header .indicator {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
